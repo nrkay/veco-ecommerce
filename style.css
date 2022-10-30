@@ -29,7 +29,7 @@ form {
     color: #bbb;
   }
 
-  button[type="submit"] {
+  .cari button[type="submit"] {
     text-indent: -999px;
     overflow: hidden;
     width: 40px;
@@ -121,6 +121,18 @@ form {
 }
 
 /* ======================================End Footer===================================== */
+
+/* ===============================================CART======================================= */
+.CO-title {
+  text-align: left;
+  width: 60000px;
+}
+
+.CO-desc{
+ width: 30000px;
+  text-align: right;
+}
+/* =============================================END CART========================================= */
 
 /* ==================================Media Query================================= */
 @media screen and (min-width: 768px){}

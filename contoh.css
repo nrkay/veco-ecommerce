@@ -1,41 +1,6 @@
-h1 {
-  font-family: sans-serif;
-  margin: 100px auto;
-  color: #228B22;
-  text-align: center;
-  font-size: 30px;
-  max-width: 600px;
-  position: relative;
+#products-table .product_price {
+  text-align:right;
 }
-
-
-h1:before {
-  content: "";
-  display: block;
-  width: 120px;
-  height: 2px;
-  background: #000;
-  left: 0;
-  top: 50%;
-  position: absolute;
-}
-h1:before {
-  content: "";
-  display: block;
-  width: 140px;
-  height: 2px;
-  background: #000;
-  left: 0;
-  top: 50%;
-  position: absolute;
-}
-h1:after {
-  content: "";
-  display: block;
-  width: 120px;
-  height: 2px;
-  background: #000;
-  right: 0;
-  top: 50%;
-  position: absolute;
+#products-table th {
+  background-color:#aaaaaa;
 }

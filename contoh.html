@@ -8,9 +8,27 @@
     <link rel="stylesheet" href="contoh.css">
 </head>
 <body>
-    <h1 style="background-color: red;">Welcome!</h1>
-    <form action="contoh.html">
-        <button type="button" class="btn mx-2 bg-transparent cart d-block d-sm-none"><img src="asset/navbar/Group(1).png" alt=""></button>
-      </form>
+    <table id="products-table">
+        <tbody>
+        <tr>
+        <th class="item_number">#</th>
+        <th class="product_name">Product</th>
+        <th class="product_quantity">Quantity</th>
+        <th class="product_price">Price single</th>
+        <th class="product_gst">Tax %</th>
+        <th class="product_tax_charged">Tax</th>
+        <th class="price_sum">Price</th>
+        </tr>
+        <tr>
+        <td class="item_number">1</td>
+        <td class="product_name">dummy product 1</td>
+        <td class="product_quantity">2</td>
+        <td class="product_price"><span class="pricedisplay">€14.40</span></td>
+        <td class="product_gst">20.00</td>
+        <td class="product_tax_charged">€4.80</td>
+        <td class="price_sum"><span class="pricedisplay">€28.80</span></td>
+        </tr>
+        </tbody>
+        </table>
 </body>
 </html>

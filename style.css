@@ -1,0 +1,276 @@
+body {
+    background-color: #EEEEEE;
+}
+/* =====================Navbar======================= */
+nav{
+    background-color: #EEEEEE;
+}
+/* Form input search */
+form {
+    background-color: white !important;
+    /* color: #555; */
+    display: flex;
+    padding: 2px;
+    border-radius: 5px;
+  }
+
+  input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+  }
+  
+  input[type="search"]::placeholder {
+    color: #bbb;
+  }
+
+  button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  
+  /* button[type="submit"]:hover {
+    opacity: 1;
+  } */
+  button[type="submit"]:focus,
+  input[type="search"]:focus {
+  box-shadow: none;
+  border-color: none;
+  outline: none;
+}
+/* End Form input search */
+
+.btn.cart {
+    padding: 5px;
+    width: 140px;
+    background-color: #FDDE67;
+}
+
+.btn.cart img{
+    margin-right: 7px;
+}
+
+.nav-item {
+    margin-right: 30px;
+}  
+/* ====================End Navbar========================= */
+
+/* ===============================Style List Partner=============================================== */
+.line {
+    border-bottom: 3px solid #829460;
+    margin-top: 5px;
+    width: 80%;
+}
+.line-top {
+    border-bottom: 3px solid #829460;
+    margin-top: 3px;
+    width: 40%;
+}
+.line-bottom {
+    border-bottom: 3px solid #829460;
+    margin-top: 5px;
+    width: 40%;
+}
+.img-partner {
+  width: 50%;
+  height: 50%;
+} 
+/* ==================================End List Partner================================= */
+/* ==================================Create Footer==================================== */
+.footer-group{
+  margin-top: 56px;
+}
+
+.list-footer {
+  text-decoration-line: none;
+}
+
+.list-footer p{
+  color: white;
+  text-align: left;
+}
+
+.footer-title h1{
+  text-align: left;
+  color: white;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.footer-copyright h1{
+  text-align: right;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  color: white;
+}
+
+/* ======================================End Footer===================================== */
+
+/* ==================================Media Query================================= */
+@media screen and (min-width: 768px){}
+@media screen and (min-width: 400px) and (max-width: 500px){
+  /* form{
+    background-color: white !important;
+    display: flex;
+    padding: 2px;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+  }
+  input[type="search"] {
+    width: 80px;
+    border: none;
+    background: black !important;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 8px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+  }
+  button[type="submit"] {
+    text-indent: -100px;
+    overflow: hidden;
+    width: 20px;
+    height: 30px;
+    padding: 0;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+  } */
+}
+@media screen and (max-width: 576px) and (min-width: 300px){
+  form{
+    background-color: white !important;
+    display: flex;
+    padding: 2px;
+    border-radius: 5px;
+    width: 180px;
+    height: 30px;
+  }
+  input[type="search"] {
+    width: 150px;
+    border: none;
+    background: transparent !important;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 8px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+  }
+  button[type="submit"] {
+    text-indent: -100px;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  .btn.cart {
+    padding: 0;
+    width: auto;
+    margin: 5px;
+    background-color: transparent !important;
+  }
+.btn.cart img{
+    margin-right: 7px;
+  }
+/* ===============================Style List Partner=============================================== */
+.img-partner {
+  width: 50%;
+  height: 50%;
+  }
+/* ===============================End Style List Partner=============================================== */
+
+
+@media screen and (max-width: 370px){
+  form{
+    background-color: white !important;
+    display: flex;
+    padding: 2px;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+  }
+  input[type="search"] {
+    width: 80px;
+    border: none;
+    background: transparent !important;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 8px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+  }
+  button[type="submit"] {
+    text-indent: -100px;
+    overflow: hidden;
+    width: 20px;
+    height: 30px;
+    padding: 0;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  .btn.cart {
+    padding: 0;
+    width: auto;
+    margin: 5px;
+    background-color: transparent !important;
+}
+
+  .btn.cart img{
+      margin-right: 7px;
+  }
+
+  /* ===============================Style List Partner=============================================== */
+
+  .img-partner {
+    width: 70%;
+    height: 70%;
+ 
+ 
+ /* ===============================End Style List Partner=============================================== */
+} 
+  } 
+}
+@media screen and (max-width: 700px) and (min-width: 501px){
+  /* ===============================Style List Partner=============================================== */
+  .img-partner {
+    width: 45%;
+    height: 45%;
+  }
+ /* ==========Style List Partner=============================================== */
+}
